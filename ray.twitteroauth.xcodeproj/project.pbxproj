@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A1E71481E0D785E003839C0 /* ray.twitteroauth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A1E71471E0D785E003839C0 /* ray.twitteroauth.cpp */; };
+		4A1E71571E0D791B003839C0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A1E71561E0D791B003839C0 /* Info.plist */; };
+		4ABDBC461E0D847F00E3CA8C /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABDBC401E0D847C00E3CA8C /* libcrypto.a */; };
+		4ABDBC471E0D847F00E3CA8C /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABDBC411E0D847C00E3CA8C /* libcurl.a */; };
+		4ABDBC481E0D847F00E3CA8C /* libOAuth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABDBC421E0D847C00E3CA8C /* libOAuth.a */; };
+		4ABDBC491E0D847F00E3CA8C /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABDBC431E0D847C00E3CA8C /* libssl.a */; };
+		4ABDBC4A1E0D847F00E3CA8C /* libTwitterOAuth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABDBC441E0D847C00E3CA8C /* libTwitterOAuth.a */; };
+		4ABDBC4B1E0D847F00E3CA8C /* libz-1.2.8.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABDBC451E0D847C00E3CA8C /* libz-1.2.8.a */; };
+		4ABDBC4D1E0D85D500E3CA8C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABDBC4C1E0D85D500E3CA8C /* Security.framework */; };
+		4ABDBC511E0D871D00E3CA8C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABDBC501E0D871D00E3CA8C /* CoreFoundation.framework */; };
+		4ABDBC531E0D878600E3CA8C /* LDAP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABDBC521E0D878600E3CA8C /* LDAP.framework */; };
+		4ABDBD1E1E0D93E000E3CA8C /* MaxAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABDBD1D1E0D93E000E3CA8C /* MaxAPI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FBBEAE508F335360078DB84 /* ray.twitteroauth.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ray.twitteroauth.mxo; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A1E71451E0D7857003839C0 /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		4A1E71471E0D785E003839C0 /* ray.twitteroauth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ray.twitteroauth.cpp; sourceTree = "<group>"; };
+		4A1E71561E0D791B003839C0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Info.plist; sourceTree = "<group>"; };
+		4AA816501E0E912C00C45896 /* TwitterOAuth.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = TwitterOAuth.hpp; path = include/TwitterOAuth.hpp; sourceTree = "<group>"; };
+		4ABDBC401E0D847C00E3CA8C /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		4ABDBC411E0D847C00E3CA8C /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcurl.a; sourceTree = "<group>"; };
+		4ABDBC421E0D847C00E3CA8C /* libOAuth.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOAuth.a; sourceTree = "<group>"; };
+		4ABDBC431E0D847C00E3CA8C /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		4ABDBC441E0D847C00E3CA8C /* libTwitterOAuth.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTwitterOAuth.a; sourceTree = "<group>"; };
+		4ABDBC451E0D847C00E3CA8C /* libz-1.2.8.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libz-1.2.8.a"; sourceTree = "<group>"; };
+		4ABDBC4C1E0D85D500E3CA8C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4ABDBC501E0D871D00E3CA8C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		4ABDBC521E0D878600E3CA8C /* LDAP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LDAP.framework; path = System/Library/Frameworks/LDAP.framework; sourceTree = SDKROOT; };
+		4ABDBD1D1E0D93E000E3CA8C /* MaxAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MaxAPI.framework; path = "../../c74support/max-includes/MaxAPI.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FBBEADC08F335360078DB84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABDBC531E0D878600E3CA8C /* LDAP.framework in Frameworks */,
+				4ABDBD1E1E0D93E000E3CA8C /* MaxAPI.framework in Frameworks */,
+				4ABDBC511E0D871D00E3CA8C /* CoreFoundation.framework in Frameworks */,
+				4ABDBC4D1E0D85D500E3CA8C /* Security.framework in Frameworks */,
+				4ABDBC461E0D847F00E3CA8C /* libcrypto.a in Frameworks */,
+				4ABDBC471E0D847F00E3CA8C /* libcurl.a in Frameworks */,
+				4ABDBC481E0D847F00E3CA8C /* libOAuth.a in Frameworks */,
+				4ABDBC491E0D847F00E3CA8C /* libssl.a in Frameworks */,
+				4ABDBC4A1E0D847F00E3CA8C /* libTwitterOAuth.a in Frameworks */,
+				4ABDBC4B1E0D847F00E3CA8C /* libz-1.2.8.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* iterator */ = {
+			isa = PBXGroup;
+			children = (
+				4A1E71561E0D791B003839C0 /* Info.plist */,
+				4A1E71451E0D7857003839C0 /* Config.xcconfig */,
+				4AA816501E0E912C00C45896 /* TwitterOAuth.hpp */,
+				4A1E71471E0D785E003839C0 /* ray.twitteroauth.cpp */,
+				19C28FB4FE9D528D11CA2CBB /* Products */,
+				4A1E71491E0D786E003839C0 /* Frameworks */,
+			);
+			name = iterator;
+			sourceTree = "<group>";
+		};
+		19C28FB4FE9D528D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FBBEAE508F335360078DB84 /* ray.twitteroauth.mxo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A1E71491E0D786E003839C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4ABDBD1D1E0D93E000E3CA8C /* MaxAPI.framework */,
+				4ABDBC521E0D878600E3CA8C /* LDAP.framework */,
+				4ABDBC501E0D871D00E3CA8C /* CoreFoundation.framework */,
+				4ABDBC4C1E0D85D500E3CA8C /* Security.framework */,
+				4ABDBC3F1E0D847C00E3CA8C /* lib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4ABDBC3F1E0D847C00E3CA8C /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				4ABDBC401E0D847C00E3CA8C /* libcrypto.a */,
+				4ABDBC411E0D847C00E3CA8C /* libcurl.a */,
+				4ABDBC421E0D847C00E3CA8C /* libOAuth.a */,
+				4ABDBC431E0D847C00E3CA8C /* libssl.a */,
+				4ABDBC441E0D847C00E3CA8C /* libTwitterOAuth.a */,
+				4ABDBC451E0D847C00E3CA8C /* libz-1.2.8.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2FBBEAD708F335360078DB84 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2FBBEAD608F335360078DB84 /* max-external */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FBBEAE008F335360078DB84 /* Build configuration list for PBXNativeTarget "max-external" */;
+			buildPhases = (
+				2FBBEAD708F335360078DB84 /* Headers */,
+				2FBBEAD808F335360078DB84 /* Resources */,
+				2FBBEADA08F335360078DB84 /* Sources */,
+				2FBBEADC08F335360078DB84 /* Frameworks */,
+				2FBBEADF08F335360078DB84 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "max-external";
+			productName = iterator;
+			productReference = 2FBBEAE508F335360078DB84 /* ray.twitteroauth.mxo */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+			};
+			buildConfigurationList = 2FBBEACF08F335010078DB84 /* Build configuration list for PBXProject "ray.twitteroauth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* iterator */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FBBEAD608F335360078DB84 /* max-external */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FBBEAD808F335360078DB84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A1E71571E0D791B003839C0 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		2FBBEADF08F335360078DB84 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FBBEADA08F335360078DB84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A1E71481E0D785E003839C0 /* ray.twitteroauth.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2FBBEAD008F335010078DB84 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A1E71451E0D7857003839C0 /* Config.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				LIBRARY_SEARCH_PATHS = "";
+			};
+			name = Development;
+		};
+		2FBBEAD108F335010078DB84 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A1E71451E0D7857003839C0 /* Config.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				LIBRARY_SEARCH_PATHS = "";
+			};
+			name = Deployment;
+		};
+		2FBBEAE108F335360078DB84 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A1E71451E0D7857003839C0 /* Config.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COPY_PHASE_STRIP = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "$(SRCROOT)/../../Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_LDFLAGS = "$(C74_SYM_LINKER_FLAGS)";
+			};
+			name = Development;
+		};
+		2FBBEAE208F335360078DB84 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A1E71451E0D7857003839C0 /* Config.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COPY_PHASE_STRIP = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				INFOPLIST_FILE = "$(SRCROOT)/../../Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_LDFLAGS = "$(C74_SYM_LINKER_FLAGS)";
+			};
+			name = Deployment;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FBBEACF08F335010078DB84 /* Build configuration list for PBXProject "ray.twitteroauth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBBEAD008F335010078DB84 /* Development */,
+				2FBBEAD108F335010078DB84 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		2FBBEAE008F335360078DB84 /* Build configuration list for PBXNativeTarget "max-external" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBBEAE108F335360078DB84 /* Development */,
+				2FBBEAE208F335360078DB84 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

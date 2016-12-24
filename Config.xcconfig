@@ -1,0 +1,18 @@
+//
+//  Config.xcconfig
+//  twitter-oauth-commandline
+//
+//  Created by leico on 2016/12/21.
+//  Copyright © 2016年 leico. All rights reserved.
+//
+
+#include "../../maxmspsdk.xcconfig"
+
+HEADER_SEARCH_PATHS  = $(inherited) "$(SRCROOT)/include" "$(SRCROOT)/picojson" $(FRAMEWORK_SEARCH_PATHS)
+LIBRARY_SEARCH_PATHS = $(inherited) "$(SRCROOT)/lib"
+
+//:configuration = Debug
+MTL_ENABLE_DEBUG_INFO = YES
+
+//:configuration = Release
+MTL_ENABLE_DEBUG_INFO = NO
