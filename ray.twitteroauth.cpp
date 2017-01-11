@@ -262,10 +262,39 @@ size_t responseCallback(char *data, size_t size, size_t nmemb, void *userdata){
     return realsize;
  
   //joint new data
-   *(x -> tweetdata) += str;
+  *(x -> tweetdata) += str;
+
+  //find \r\n
+  std :: string :: size_type pos = x -> tweetdata -> find(ENDMARK);
+
+  while(pos != std :: string :: npos){
+
+    picojson :: value  json;
+    std      :: string err("");
+   
+    //split \r\n
+    str = x -> tweetdata -> substr(0, pos);
+
+    picojson :: parse(json, str.begin(), str.end(), &err);
+
+    if( ! err.empty())
+      object_warn((t_object *)x, "json parse error: %s", err.c_str());
+
+    else
+      outlet_anything((x -> out), gensym( json.serialize().c_str() ), 0, (t_atom *)NIL);
+
+    //delete read data and find next \r\n
+          x -> tweetdata -> erase(0, pos + ENDMARK.size());
+    pos = x -> tweetdata -> find (ENDMARK);
+  }
+
+  return realsize;
+   
+
+/*
 
   //if not found end mark, its a piece of tweet data
-  if(x -> tweetdata -> find(ENDMARK) == std :: string :: npos)
+  if(pos == std :: string :: npos)
     return realsize;
 
 
@@ -285,7 +314,7 @@ size_t responseCallback(char *data, size_t size, size_t nmemb, void *userdata){
   x -> tweetdata -> clear();
 
   return realsize;
-
+*/
 
 }
 

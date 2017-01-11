@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "00E827956FDD9ECD2AF9A02387BB09286B1DF166",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "20DC6287C6D318433B681296E0BF364C4882CD47" : 9223372036854775807,
+    "00E827956FDD9ECD2AF9A02387BB09286B1DF166" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "949A59F0-4941-4091-8EC0-8E9FF73F5873",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "20DC6287C6D318433B681296E0BF364C4882CD47" : "..\/..",
+    "00E827956FDD9ECD2AF9A02387BB09286B1DF166" : "03_ray.twitteroauth\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ray.twitteroauth",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ray.twitteroauth.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/leico\/ray.twitteroauth.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "00E827956FDD9ECD2AF9A02387BB09286B1DF166"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/leico\/max-sdk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "20DC6287C6D318433B681296E0BF364C4882CD47"
+    }
+  ]
+}
